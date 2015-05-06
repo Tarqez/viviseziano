@@ -185,6 +185,7 @@ def reset_changes(s=Session()):
     s.commit()
     s.close()
 
+
 load()
 #revise_price()
 #reset_closed()
